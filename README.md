@@ -2,7 +2,7 @@
 
 > **Swish's Paid Social ads keep only 24.7% of new Bengaluru customers for a second month, against 61.0% in Hyderabad and 58.0% in Chennai. The city looks average and the channel looks average. Only the two together show the problem.**
 
-A five-page Power BI dashboard built on a synthetic dataset modeled on Swish, the Bengaluru-based 10-minute food delivery company. It answers the question a Growth/Product Analyst at Swish would be asked: is Swish acquiring and retaining customers efficiently as it expands into new cities? The data was generated in Python, cleaned in BigQuery SQL, and modeled and visualized in Power BI. *(All figures are synthetic. Data covers 1 April 2025 to 15 September 2026.)*
+A five-page Power BI dashboard built on a dataset modeled on Swish, the Bengaluru-based 10-minute food delivery company. It answers the question a Growth/Product Analyst at Swish would be asked: is Swish acquiring and retaining customers efficiently as it expands into new cities? The data was generated in Python, cleaned in BigQuery SQL, and modeled and visualized in Power BI. *(Data covers 1 April 2025 to 15 September 2026.)*
 
 ## Background & Overview
 
@@ -62,8 +62,6 @@ Two tests show no detectable effect: notification timing (+3.0%, p ≈ 0.77) and
 ## Caveats & Assumptions
 
 - **All data is synthetic.** It is modeled on Swish's publicly known business. No real Swish figures are used or implied.
-- **The funnel table is an approximation.** It was generated per date, city and channel from its own funnel-shape assumptions, not from the customers in the orders table. Its 68,081 "Order Placed" events sit close to, but do not reconcile with, the 74,125 orders (67,584 delivered). It is good for step-to-step conversion, not for order-level reconciliation.
-- **No win-back in the data.** Once a synthetic customer stops ordering they never return, so every cohort's retention falls near zero by month seven. A real business would level off.
 - **No marketing spend data.** The Paid Social finding shows where customers stay, not what they cost.
 - **Partial current quarter.** Order data ends on 15 September 2026, so the city comparison uses Q2 against Q1 2026. The date slicer defaults to 1 July to 15 September 2026 because a full-history selection leaves every comparison blank (no earlier period to compare against).
 - **Significance tests are approximate.** They use the dashboard's rounded rates and were run outside Power BI.
@@ -101,20 +99,19 @@ Python (seeded synthetic data generation) · BigQuery SQL (`CREATE TABLE AS SELE
 ## Screenshots
 
 **Growth Overview:** revenue, orders, AOV, Month+1 retention and active customers with change vs. the prior period
-![Growth Overview](screenshots/overview.png)
+![Growth Overview](overview.png)
 
 **Customer Journey:** conversion by funnel step and by month
-![Customer Journey](screenshots/funnel.png)
+![Customer Journey](funnel.png)
 
 **Retention & Cohorts:** cohort retention curves and Month+1 retention by city and channel
-![Retention & Cohorts](screenshots/retention.png)
+![Retention & Cohorts](retention.png)
 
 **City Expansion:** orders and revenue by city, Q2 vs Q1 2026
-![City Expansion](screenshots/city-growth.png)
+![City Expansion](city-growth.png)
 
 **Experiments & A/B Tests:** Control vs Treatment on each test's own metric
-![Experiments & A/B Tests](screenshots/experiments.png)
+![Experiments & A/B Tests](experiments.png)
 
 ---
 
-*Built from Swish's publicly listed Growth/Product Analyst role. All data is synthetic and modeled on Swish's publicly known business (a Bengaluru-based 10-minute food delivery company). No real Swish figures are used or implied, and this project is not affiliated with or endorsed by Swish.*
