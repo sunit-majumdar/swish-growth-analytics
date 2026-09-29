@@ -40,7 +40,7 @@ A home-screen reorder button lifted conversion from 9.0% to 16.5% (+83.9%). It i
 Referral has the highest Month+1 retention overall (64.0%) and in five of six cities. Chennai is the exception, where Partnerships and Influencer score higher. A separate test that doubled referral credit lifted Day 30 retention of referred customers from 42.3% to 48.0% (p ≈ 0.01). That test uses a different retention window from the dashboard's Month+1, so the two sets of figures should not be compared directly.
 
 **6. Not every test worked.**
-Two tests show no detectable effect: notification timing (+3.0%, p ≈ 0.77) and the new checkout layout (−8.4%, p ≈ 0.47). The delivery fee waiver moved AOV from ₹265 to ₹271 (+2.3%); I did not test that one for significance, because it needs the spread of order values.
+Two tests show no detectable effect: notification timing (+3.0%, p ≈ 0.78) and the new checkout layout (−8.4%, p ≈ 0.52). The delivery fee waiver moved AOV from ₹265 to ₹271 (+2.3%); I did not test that one for significance, because it needs the spread of order values.
 
 ## Recommendation
 
