@@ -22,7 +22,7 @@ Built for the Growth/Product Analyst role at Swish. All data is synthetic, gener
 
 **Why.** From 1 July to 15 September 2026, revenue grew 8.8% while AOV fell 0.9%, so all of the growth came from order count. Orders depend on customers coming back, so retention was the next place to look. By city, Bengaluru is lowest at 44.7%. By channel, Paid Social is lowest at 42.5%. Neither number looks alarming on its own. The problem only shows up when city and channel are crossed. It is not a small-sample effect: Bengaluru's Paid Social cohort is 1,079 customers, more than Paid Social brought in across Hyderabad, Chennai and Pune combined (882).
 
-**So what.** Bengaluru is Swish's oldest and largest market, 27.7% of Q2 orders, and its slowest-growing, with orders up 13.6% against 51.9% in Chennai. The channel bringing in the most new customers there keeps the fewest of them. The likeliest explanation is audience fatigue, since Bengaluru has had the longest exposure to the same ads. The data cannot prove that on its own, and the first next move below tests it.
+**So what.** Bengaluru is Swish's oldest and largest market, 27.7% of Q2 orders, and its slowest-growing, with orders up 14.6% against 53.6% in Chennai. The channel bringing in the most new customers there keeps the fewest of them. The likeliest explanation is audience fatigue, since Bengaluru has had the longest exposure to the same ads. The data cannot prove that on its own, and the first next move below tests it.
 
 **Now what.** Growth should cap new Paid Social acquisition in Bengaluru and move that budget to Referral, which keeps 60.3% of customers in the same city, and to the newer cities where Paid Social still performs.
 
