@@ -28,7 +28,7 @@ Between 1 July and 15 September 2026, Swish delivered 16,860 orders and **₹66.
 Bengaluru's overall Month+1 retention is 44.7% and Paid Social's overall is 42.5%. Each looks a little weak, but neither looks alarming. Crossing them shows Bengaluru × Paid Social at 24.7%, while the same channel holds 61.0% in Hyderabad and 58.0% in Chennai. Referral keeps 60.3% of customers in Bengaluru, so the city itself is not the cause. It is not a small-sample effect either: Bengaluru's Paid Social cohort (1,079 customers) is larger than Hyderabad, Chennai and Pune combined (882).
 
 **2. Bengaluru is the oldest market, and the slowest growing.**
-Bengaluru is 27.7% of Q2 2026 orders but grew just 13.6% on Q1, against 51.9% in Chennai, Swish's newest city in the data. Growth rate falls in step with city age across all six cities. That fits a saturated market, where the same ads have been shown to the same audience for longest. The data cannot prove that, and the retention trend by cohort (a next move below) would test it.
+Bengaluru is 27.7% of Q2 2026 orders but grew just 14.6% on Q1, against 53.6% in Chennai, Swish's newest city in the data. Growth rate falls in step with city age across all six cities. That fits a saturated market, where the same ads have been shown to the same audience for longest. The data cannot prove that, and the retention trend by cohort (a next move below) would test it.
 
 **3. The biggest funnel leak is between browsing and adding to cart.**
 Of 463,308 app opens, 14.7% end in an order. The weakest step is Browse to Add to Cart, where only 52.2% move on. The funnel is 60.1% → 52.2% → 72.1% → 65.0% at each step.
